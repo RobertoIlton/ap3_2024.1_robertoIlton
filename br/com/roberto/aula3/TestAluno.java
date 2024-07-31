@@ -6,14 +6,14 @@ public class TestAluno {
 
         Aluno roberto = new Aluno();
         roberto.setNome("Roberto Ilton");
-        roberto.setNota1(10);
-        roberto.setNota2(7);
+        roberto.setNota1(7);
+        roberto.setNota2(5);
         roberto.setNota3(5);
         System.out.println();
         System.out.println(roberto);
 
         if (roberto.aprovadoMedia())
-            System.out.println("Passou por média!");
+            System.out.println("Passou por média com : "+ roberto.getMedia() +" !");
         else
             System.out.println("Ixe, reprovou pq tirou " + roberto.getMedia());
     }
