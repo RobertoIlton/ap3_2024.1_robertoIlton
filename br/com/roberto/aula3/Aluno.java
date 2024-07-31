@@ -22,6 +22,7 @@ public class Aluno {
     public boolean aprovadoMedia (){
         if (getMedia() >= 7);
             return true;
+        return false;
     }
 
     public String getNome(){
