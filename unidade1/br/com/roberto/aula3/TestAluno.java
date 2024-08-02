@@ -6,9 +6,9 @@ public class TestAluno {
 
         Aluno roberto = new Aluno();
         roberto.setNome("Roberto Ilton");
-        roberto.setNota1(7);
-        roberto.setNota2(5);
-        roberto.setNota3(5);
+        roberto.setNota1(10);
+        roberto.setNota2(7);
+        roberto.setNota3(6);
         System.out.println();
         System.out.println(roberto);
 
