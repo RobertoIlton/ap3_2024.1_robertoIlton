@@ -1,11 +1,14 @@
-package br.com.roberto.aula3;
+package br.com.roberto.aula4;
 
 public class Aluno {
 
-    String nome;
-    double nota1;
+
+
+    String nome = "SemNome";
+    double nota1 = 5;
     double nota2;
     double nota3;
+    String nomeDaMae = "Maezinha";
 
     public String getNomeMaiusculo (){
         return nome.toUpperCase();
@@ -57,9 +60,18 @@ public class Aluno {
         this.nota3 = nota3;
     }
 
+    public String getNomeDaMae() {
+        return nomeDaMae;
+    }
+
+    public void setNomeDaMae(String nomeDaMae) {
+        this.nomeDaMae = nomeDaMae;
+    }
+
     @Override
     public String toString() {
-        return "Aluno [nome = " + nome + ", nota1 = " + nota1 + ", nota2 = " + nota2 + ", nota3 = " + nota3 + "]";
+        return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", nomeDaMae="
+                + nomeDaMae + "]";
     }
 
 
