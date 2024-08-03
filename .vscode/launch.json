@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestaListaAlunos",
+            "request": "launch",
+            "mainClass": "br.com.roberto.aula4.TestaListaAlunos",
+            "projectName": "ap3_2024.1_robertoIlton_9a7c2d8c"
+        },
+        {
+            "type": "java",
             "name": "Aluno",
             "request": "launch",
             "mainClass": "br.com.roberto.aula3.Aluno",
